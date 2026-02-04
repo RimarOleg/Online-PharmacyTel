@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* BASE */
+body {
+    background: #f2f2f2;
+    color: #000;
+}
+
+/* IMAGES — МАГІЯ ДЛЯ ВСІХ ФОТО */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HEADER */
+.header {
+    background: #0b5e2a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.city {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* SEARCH */
+.search-bar {
+    display: flex;
+    gap: 6px;
+    padding: 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #e0e0e0;
+}
+
+.search-bar button {
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+}
+
+/* PROMO */
+.promo {
+    padding: 15px;
+}
+
+.promo h2 {
+    margin-bottom: 10px;
+}
+
+.promo-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* ОСНОВНЕ ФОТО */
+.img-cover {
+    width: 60%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* КРУГЛА КАРТИНКА */
+.circle-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid green;
+}
+
+.circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* MENU */
+.menu {
+    padding: 10px;
+}
+
+.menu-item {
+    background: white;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-item img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+/* BUY BUTTON */
+.buy-now {
+    width: 90%;
+    margin: 15px auto;
+    display: block;
+    padding: 16px;
+    border-radius: 30px;
+    border: none;
+    background: #5bc44d;
+    color: white;
+    font-size: 20px;
+}

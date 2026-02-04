@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 229, 230);
+}
+
+header nav ul{
+    background-color: rgb(5, 108, 72);
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 10px 40px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.top{
+    background-color: white;
+    margin: 0;
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.catalog, .search button{
+    background-color: rgb(0, 203, 112);
+    color: white;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search button{
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+
+.link a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #333;
+    transition: transform 0.2s;
+}
+
+.link a:hover{
+    transform: translateY(-5px);
+}
+
+.middle{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 30px;
+}
+
+.search-by-types{
+    flex: 1;
+}
+
+.search-by-types p{
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid rgb(6, 187, 124);
+}
+
+.img-row{
+    display: flex;
+    gap: 15px;
+}
+
+.img-row img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+.img2{
+    background-color: white;
+}
+
+.under{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.under div{
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.under div:hover {
+    transform: translateY(-5px);
+}
+
+.under img{
+    width: 220px;
+    
+    margin-bottom: 10px;
+}
+
+.under p {
+    font-weight: bold;
+    color: rgb(5, 108, 72);
+}
