@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header {
+    background: #0b5e2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.city {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 12px 16px;
+    font-size: 15px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.catalogue-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+}
+
+.search input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    background: #e0e0e0;
+}
+
+.find-btn {
+    background: #4CAF50;
+    color: white;
+    border-radius: 0 25px 25px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 15px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.info-box {
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.products {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+
+.product-img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    color: #4CAF50;
+}
+
+.result-text {
+    flex: 1;
+}
+
+.result-img {
+    width: 80px;
+    object-fit: contain;
+}
+
+.buy-now {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    background: #5bc44d;
+    color: white;
+    font-size: 22px;
+}
+.nav-btn {
+  display: inline-block;
+  padding: 14px 20px;
+  background: #3e9b2f;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.prev {
+  background: #999;
+}
