@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 15px 40px;
+    margin: 0;
+    background-color: rgb(5, 108, 72);
+    justify-content: space-between;
+}
+
+header nav ul li{
+    color: white;
+    font-weight: bold;
+}   
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow:  0 2px 5px;
+}
+
+.catalog-btn{
+    background-color: rgb(0, 203, 112);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.catalog-btn:hover{
+background-color: rgb(0,170,95);
+}
+
+.search-form{
+    gap: 0px;
+    display: flex;
+}
+
+.search-form input{
+    padding: 10px 15px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-form button{
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.links a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.links a:hover {
+    color: rgb(0, 203, 112);
+}
+
+button{
+    background-color:  rgb(0, 203, 112);
+    border:none;
+    color: white;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.search-types p{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-left: 5px solid rgb(0, 203, 112);
+}
+
+.img-row{
+    display: flex;
+    gap: 15px;
+}
+
+.images-row img{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.under{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.under img{
+    max-width:400px;
+    border-radius: 12px;
+}
+
+.product{
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+.product img{
+    width:180px;
+}
+button:hover{
+    background-color: rgb(0,170,95);
+}
+
+.search-types p:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.images-row{
+    display: flex;
+    gap: 20px;
+}
+
+.images-row img:hover{
+    transform: scale(1.03);
+}
+
+.under{
+    align-items: center;
+    gap: 30px;
+}
+
+.product{
+    background-color: #f9f9f9;
+}
+.search-types{
+    border: 2px solid rgb(0,203,112);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.search-types p{
+    border: 2px solid rgb(0,203,112);
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.middle{
+    align-items: center;
+}
+
+.images-row img{
+    background-color: white;
+    padding: 10px;
+}
+
+.product{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.product p{
+    color: rgb(0,108,72);
+    font-size: 18px;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav-btn{
+    background-color: rgb(0,203,112);
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-btn:hover{
+    background-color: rgb(0,170,95);
+}
